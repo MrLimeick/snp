@@ -13,7 +13,7 @@ def multiply_numbers(*inputs):
     num = 1
     for i in nums: num *= float(i)
 
-    print(num)
+    return num
 
 multiply_numbers()          # => None
 multiply_numbers('ss')      # => None

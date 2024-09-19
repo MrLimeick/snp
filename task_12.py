@@ -6,7 +6,7 @@ class JellyBean(Dessert):
         self.__flavor = flavor
 
     @property
-    def flavor(self):
+    def flavor(self): 
         return self.__flavor
 
     @flavor.setter

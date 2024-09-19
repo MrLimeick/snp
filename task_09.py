@@ -18,7 +18,7 @@ def connect_dicts(dict1: dict, dict2: dict):
         p[0][k] = v
     
     d = dict(sorted(p[0].items(), reverse=True))
-    print(d)
+    return d
 
 connect_dicts({ "a": 2, "b": 12 }, { "c": 11, "e": 5 }) # => { "c": 11, "b": 12 }
 connect_dicts({ "a": 13, "b": 9, "d": 11 }, { "c": 12, "a": 15 }) # => {d:11,"c":12, "a":13}
